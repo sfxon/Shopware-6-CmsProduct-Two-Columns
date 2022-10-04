@@ -1,0 +1,1 @@
+import './module/sw-cms/blocks/commerce/product-two-column';

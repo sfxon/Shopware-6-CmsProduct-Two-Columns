@@ -1,0 +1,35 @@
+{
+    "name": "myfav/cms-product-two-columns",
+    "description": "Two column cms products",
+      "version": "1.0.0",
+    "type": "shopware-platform-plugin",
+    "license": "proprietary",
+    "autoload": {
+      "psr-4": {
+        "Myfav\\CmsProductTwoColumns\\": "src/"
+      }
+    },
+    "extra": {
+      "shopware-plugin-class": "Myfav\\CmsProductTwoColumns\\MyfavCmsProductTwoColumns",
+      "label": {
+        "de-DE": "Mindfav Two Columns CMS Products",
+        "en-GB": "Mindfav Two Columns CMS Products"
+      },
+          "description": {
+              "de-DE": "Zweispaltiges Artikel-Listing für das CMS-System.",
+              "en-GB": "Two-columned article-listing for the cms."
+          },
+          "manufacturerLink": {
+                  "de-DE": "https://mindfav.com",
+                  "en-GB": "https://mindfav.com"
+          },
+          "supportLink": {
+                  "de-DE": "https://www.mindfav.com/impressum/",
+                  "en-GB": "https://www.mindfav.com/impressum/"
+          }
+    },
+    "require": {
+        "shopware/core": "~6.4",
+        "shopware/storefront": "~6.4"
+    }
+}
